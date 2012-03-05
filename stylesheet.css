@@ -2,13 +2,15 @@
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
   padding: 10px 0;
-  margin-top: 90px;
+  margin: 90px 0 40px;
+  height: 50px;
 }
 
 .cebit-logo-container li {
   position: relative;
-  display: inline-block;
+  float: left;
   margin-left: 30px;
+  height: 50px;
 }
 
 .cebit-logo-container h4 {
@@ -20,7 +22,7 @@
 }
 
 .cebit-logo-container a {
-  display: inline-block;
+  float: left;
   margin-left: 16px;
   height: 50px;
   background: url('img/logo_sprite_v1.png') no-repeat 0 0;
