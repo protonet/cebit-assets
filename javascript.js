@@ -6,14 +6,14 @@ $(function() {
   var config = {
     "brought to you by": [
       {
+        href:     "http://dreisechsnull.telekom.de/",
+        "class":  "dsn"
+      }, {
         href:     "https://deskwanted.com/",
         "class":  "deskwanted"
       }, {
         href:     "http://www.car2go.com/",
         "class":  "car2go"
-      }, {
-        href:     "http://dreisechsnull.telekom.de/",
-        "class":  "dsn"
       }
     ],
     "host": [
@@ -44,4 +44,6 @@ $(function() {
   });
   
   $list.insertAfter(".welcome");
+  
+  $("<a>", { "class": "dsn-banner", "href": "http://dreisechsnull.telekom.de/", "target": "_blank" }).insertBefore(".welcome");
 });
